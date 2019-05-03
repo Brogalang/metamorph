@@ -21,3 +21,6 @@
     <link rel="stylesheet" href="<?php echo base_url ('bootstrap/css/aos.css')?>">
 
     <link rel="stylesheet" href="<?php echo base_url ('bootstrap/css/style.css')?>">
+
+
+    <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome-free/css/all.min.css') ?>">

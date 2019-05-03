@@ -36,6 +36,7 @@
 										<th>Universitas</th>
 										<th>Photo</th>
 										<th>Keterangan</th>
+										<th>Kehadiran</th>
 										<th>Action</th>
 									</tr>
 								</thead>
@@ -61,8 +62,30 @@
 											<img src="<?php echo base_url('upload/pendaftar/'.$pendaftar->image) ?>" width="64" />
 										</td>
 										<td class="small">
-											<?php echo substr($pendaftar->ket, 0, 120) ?>...</td>
-										<td width="250">
+											<?php echo substr($pendaftar->ket, 0, 120) ?>...
+										</td>
+										<td>
+					                      <?php 
+					                          switch ($pendaftar->status) {
+					                            case 1:
+					                                  echo '<div class="p-2 d-inline-block rounded-circle bg-danger"></div>';
+					                                break;
+					                            
+					                            case 2:
+					                                  echo '<div class="p-2 d-inline-block rounded-circle bg-warning"></div>';
+					                                break;
+					           
+					                             case 3:
+					                                  echo '<div class="p-2 d-inline-block rounded-circle bg-success"></div>';
+					                                break;
+					           
+					                              case 4:
+					                                  echo '<div class="p-2 d-inline-block rounded-circle bg-primary"></div>';
+					                                break;
+					                          }
+					                       ?>    
+					                  </td>
+					                  	<td width="250">
 											<a href="<?php echo site_url('admin/pendaftars/edit/'.$pendaftar->nip) ?>"
 											 class="btn btn-small"><i class="fas fa-edit"></i> Edit</a>
 											<a onclick="deleteConfirm('<?php echo site_url('admin/pendaftars/delete/'.$pendaftar->nip) ?>')"

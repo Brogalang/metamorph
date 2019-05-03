@@ -78,6 +78,17 @@
 								</div>
 							</div>
 
+							<div class="form-group">
+								<label for="status">Kehadiran*</label>
+								<select name="status">
+									<option value="1">Masuk</option>
+									<option value="2">Tidak Masuk</option>
+									<option value="3">Sakit</option>
+								</select>
+								<div class="invalid-feedback">
+									<?php echo form_error('jk') ?>
+								</div>
+							</div>
 
 							<div class="form-group">
 								<label for="nama">Photo</label>
@@ -96,7 +107,6 @@
 									<?php echo form_error('ket') ?>
 								</div>
 							</div>
-
 							<input class="btn btn-success" type="submit" name="btn" value="Save" />
 						</form>
 

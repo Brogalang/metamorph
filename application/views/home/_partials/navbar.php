@@ -24,14 +24,14 @@
                           <li><a href="<?php echo site_url('page/why') ?>">Why Join PPM NH ?</a></li>
                         </ul>
                       </li>
-                      <li class="<?php if($this->uri->uri_string() == 'page/kepengurusan') { echo 'active'; } ?>">
-                        <a href="<?php echo site_url('home/pengurus') ?>">Kepengurusan</a>
+                      <li class="<?php if($this->uri->uri_string() == 'page/santri') { echo 'active'; } ?>">
+                        <a href="<?php echo site_url('page/santri') ?>">Santri</a>
                       </li>
                       <li class="<?php if($this->uri->uri_string() == 'page/metamorph') { echo 'active'; } ?>">
                         <a href="<?php echo site_url('page/metamorph') ?>">Metamorph</a>
                       </li>
-                      <li<?php if($this->uri->uri_string() == 'page/guru') { echo 'active'; } ?>>
-                      <a href="<?php echo site_url('page/guru') ?>">Guru</a>
+                      <li class="<?php if($this->uri->uri_string() == 'page/guru') { echo 'active'; } ?>">
+                        <a href="<?php echo site_url('page/guru') ?>">Guru</a>
                     </li>
                     </ul>
                   </div>

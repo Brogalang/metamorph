@@ -47,6 +47,17 @@
 							</div>
 
 							<div class="form-group">
+								<label for="JK">Jenis Kelamin*</label>
+								<select name="jk">
+									<option value="L">L</option>
+									<option value="P">P</option>
+								</select>
+								<div class="invalid-feedback">
+									<?php echo form_error('jk') ?>
+								</div>
+							</div>
+
+							<div class="form-group">
 								<label for="price">Asal</label>
 								<input class="form-control <?php echo form_error('asal') ? 'is-invalid':'' ?>"
 								 type="text" name="asal" min="0" placeholder="Asal" value="<?php echo $pendaftar->asal ?>" />
@@ -64,6 +75,17 @@
 								</div>
 							</div>
 
+							<div class="form-group">
+								<label for="status">Kehadiran*</label>
+								<select name="status">
+									<option value="1">Masuk</option>
+									<option value="2">Tidak Masuk</option>
+									<option value="3">Sakit</option>
+								</select>
+								<div class="invalid-feedback">
+									<?php echo form_error('status') ?>
+								</div>
+							</div>
 
 							<div class="form-group">
 								<label for="name">Photo</label>

@@ -33,4 +33,22 @@ class Page extends CI_Controller {
         // load view admin/overview.php
         $this->load->view("home/visi");
 	}
+
+	public function why()
+	{
+        // load view admin/overview.php
+        $this->load->view("home/why");
+	}
+
+	public function santri()
+	{
+        // load view admin/overview.php
+        $this->load->view("home/santri");
+	}
+
+	public function guru()
+	{
+        // load view admin/overview.php
+        $this->load->view("home/guru");
+	}
 }

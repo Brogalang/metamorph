@@ -47,7 +47,7 @@
   </head>
   <body>
 
-  <button class="button-flat-circle" onclick="topFunction()" id="myBtn" title="Go to top" style="background-image: url(<?php echo base_url();?>bootstrap/images/arrow.jpg);"></button>
+  <!-- <button class="button-flat-circle" onclick="topFunction()" id="myBtn" title="Go to top" style="background-image: url(<?php echo base_url();?>bootstrap/images/arrow.jpg);"></button> -->
   
   <?php $this->load->view("home/_partials/navbar.php") ?>
   
@@ -312,6 +312,8 @@
     <?php $this->load->view("home/_partials/footer.php") ?>
   </div>
 
+  <?php $this->load->view("home/_partials/scrolltop.php") ?>
+
   <script>
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function() {scrollFunction()};
@@ -333,6 +335,7 @@
 
 
   <?php $this->load->view("home/_partials/js.php") ?>
+  <?php $this->load->view("admin/_partials/js.php") ?>
     
 
   <script>
@@ -353,6 +356,8 @@
                 }
             });
     </script>
+
+    
 
   </body>
 </html>

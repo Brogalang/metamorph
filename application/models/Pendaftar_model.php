@@ -11,6 +11,7 @@ class Pendaftar_model extends CI_Model
     public $univ;
     public $image = "default.jpg";
     public $ket;
+    public $status;
 
     public function rules()
     {
@@ -37,6 +38,10 @@ class Pendaftar_model extends CI_Model
             
             ['field' => 'ket',
             'label' => 'Ket',
+            'rules' => 'required'],
+
+            ['field' => 'status',
+            'label' => 'Status',
             'rules' => 'required']
         ];
     }
@@ -61,6 +66,7 @@ class Pendaftar_model extends CI_Model
         $this->univ = $post["univ"];
         $this->image = $this->_uploadImage();
         $this->ket = $post["ket"];
+        $this->status = $post["status"];
         $this->db->insert($this->_table, $this);
     }
 
@@ -80,6 +86,7 @@ class Pendaftar_model extends CI_Model
         }
 
         $this->ket = $post["ket"];
+        $this->status = $post["status"];
         $this->db->update($this->_table, $this, array('nip' => $post['id']));
     }
 

@@ -70,7 +70,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center" data-aos="fade">
-              <h1>Visi Misi</h1>
+              <h1>Why Join PPM NH ?</h1>
              <!--  <p class="font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem esse praesentium expedita aliquam sunt eveniet.</p> -->
             </div>
           </div>
@@ -79,100 +79,36 @@
     </div>
 
     
-   <!-- <div class="site-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 ml auto">
-            
-              <div class="img-border">
-                <a href="https://vimeo.com/28959265" >
-                  <span class="icon-wrap"></span>
-                  <img src="images/sejarah1.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-          </div>
-          <div class="col-md-6 ml-auto">
-            <div class="img-border">
-                <a href="https://vimeo.com/28959265" >
-                  <span class="icon-wrap"></span>
-                  <img src="images/sejarah1.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            <h2 class="h2 mb-3">Sejarah PPM NH</h2>
-            <p class="h5 mb-3">Kita membangun karakter anak muda agamis dan berilmu tinggi</p>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis magni eaque velit eum, id rem eveniet dolor possimus voluptas..</p>
-            <p><a href="https://vimeo.com/28959265" class="popup-vimeo text-uppercase">Watch Video <span class="icon-arrow-right small"></span></a></p>
+   <div class="site-block-half d-flex">
+        <div class="image bg-image order-2" style="background-image: url(<?php echo base_url ();?>bootstrap/images/hero_b1_1.jpg);"></div>
+        <div class="text">
+          <div class="section-heading text-left">
+            <h2 class="mb-5">Belief #1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore, corporis, velit.</p>
           </div>
         </div>
       </div>
-    </div> -->
-
-
-    <!-- <div class="site-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-12 col-lg-5 mb-5 mb-lg-0 order-1">
-            <h2 class="mb-3 text-uppercase">Pastor's <strong class="text-black font-weight-bold">Dedication</strong></h2>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque accusamus, rerum illo facilis reiciendis.</p>
-            <p class="mb-4">Iste aut dolorem veritatis saepe nesciunt distinctio voluptas sapiente sunt perspiciatis autem minima, iure provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, quas.</p>
-            <p><a href="#" class="btn btn-primary pill px-4">Read More</a></p>
-          </div>
-          <div class="col-md-12 col-lg-6 mr-auto order-2">
-            <img src="images/about_2.jpg" alt="Image" class="img-fluid">
+      <div class="site-block-half d-flex">
+        <div class="image bg-image" style="background-image: url(<?php echo base_url ();?>bootstrap/images/hero_bg_2.jpg);"></div>
+        <div class="text">
+          <div class="section-heading text-left">
+            <h2 class="mb-5">Belief #2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore, corporis, velit.</p>
           </div>
         </div>
       </div>
-    </div> -->
-
-    <!-- <div class="site-section site-block-feature bg-light">
-      <div class="container">
-        <div class="d-block d-md-flex border-bottom">
-          <div class="text-center p-4 item border-right">
-            <span class="flaticon-paper-plane display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">VISI MISI PPM</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-          <div class="text-center p-4 item">
-            <span class="flaticon-chat-1 display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Testimonies</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-        </div>
-        <div class="d-block d-md-flex">
-          <div class="text-center p-4 item border-right">
-            <span class="flaticon-speaker display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">Listen To Our Sermons</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
-          </div>
-          <div class="text-center p-4 item">
-            <span class="flaticon-avatar display-3 mb-3 d-block text-primary"></span>
-            <h2 class="h5 text-uppercase">WHY JOIN PPM NH ?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="#">Read More <span class="icon-arrow-right small"></span></a></p>
+      <div class="site-block-half d-flex">
+        <div class="image bg-image order-2" style="background-image: url(<?php echo base_url ();?>bootstrap/images/hero_bg_3.jpg);"></div>
+        <div class="text">
+          <div class="section-heading text-left">
+            <h2 class="mb-5">Belief #3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore, corporis, velit.</p>
           </div>
         </div>
       </div>
-    </div> -->
 
-    <div class="site-section">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <h2>Visi</h2>
-          <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
 
-       <div class="container">
-        <div class="row justify-content-center text-center mb-5">
-          <h2>Misi</h2>
-          <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-    </div>
-
+    
 
     <div class="site-section">
       <div class="container">

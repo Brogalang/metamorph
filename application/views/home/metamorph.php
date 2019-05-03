@@ -40,6 +40,9 @@
       .button-flat-circle:active {
         background: #4d667d;              /* ubah background saat button ditekan */
       }
+
+      .status{width: 20px; height: 20px; float: left;}
+
     </style>
     
   </head>
@@ -69,6 +72,12 @@
           </div>
         </div>
 
+    <ul>
+      <li><div class="rounded-circle bg-success status"></div>&nbsp;Masuk</li>
+      <li><div class="rounded-circle bg-danger status"></div>&nbsp;Tidak Masuk</li>
+      <li><div class="rounded-circle bg-warning status"></div>&nbsp;Sakit</li>
+    </ul>
+
     <div class="table-responsive">
               <table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
                 <thead>
@@ -79,7 +88,7 @@
                     <th>Asal</th>
                     <th>Universitas</th>
                     <th>Photo</th>
-                    <th>Keterangan</th>
+                    <th>Kehadiran</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -103,8 +112,27 @@
                     <td>
                       <img src="<?php echo base_url('upload/pendaftar/'.$pendaftar->image) ?>" width="64" />
                     </td>
-                    <td class="small">
-                      <?php echo substr($pendaftar->ket, 0, 120) ?>...</td>
+                    <td>
+                      <?php 
+                          switch ($pendaftar->status) {
+                            case 1:
+                                  echo '<div class="p-2 d-inline-block rounded-circle bg-danger"></div>';
+                                break;
+                            
+                            case 2:
+                                  echo '<div class="p-2 d-inline-block rounded-circle bg-warning"></div>';
+                                break;
+           
+                             case 3:
+                                  echo '<div class="p-2 d-inline-block rounded-circle bg-success"></div>';
+                                break;
+           
+                              case 4:
+                                  echo '<div class="p-2 d-inline-block rounded-circle bg-primary"></div>';
+                                break;
+                          }
+                       ?>    
+                  </td>
                   </tr>
                   <?php endforeach; ?>
 
